@@ -1,0 +1,23 @@
+    <!-- JS -->
+    <script src="{{ site.url }}/assets/js/jquery-1.12.0.min.js"></script>
+    <script src="{{ site.url }}/assets/js/jquery.dlmenu.min.js"></script>
+    <script src="{{ site.url }}/assets/js/jquery.goup.min.js"></script>
+    <script src="{{ site.url }}/assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="{{ site.url }}/assets/js/jquery.fitvid.min.js"></script>
+    <script src="{{ site.url }}/assets/js/scripts.js"></script>
+    <a title="Google Analytics Alternative" href="http://clicky.com/101091806"><img alt="Google Analytics Alternative" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a>
+<script type="text/javascript">
+var clicky_site_ids = clicky_site_ids || [];
+clicky_site_ids.push(101091806);
+(function() {
+  var s = document.createElement('script');
+  s.type = 'text/javascript';
+  s.async = true;
+  s.src = '//static.getclicky.com/js';
+  ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
+})();
+</script>
+<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101091806ns.gif" /></p></noscript>
+    {% if page.comments != false %}
+        {% include disqus_comments.html %}
+    {% endif %}
