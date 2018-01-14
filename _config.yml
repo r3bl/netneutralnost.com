@@ -9,7 +9,7 @@ logo:               'assets/img/logo.png'
 # tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 bg_color:           white;
 locale:             en_US
-url: netneutralnost.com
+url: https://netneutralnost.com
 # url: .
 
 # Jekyll
